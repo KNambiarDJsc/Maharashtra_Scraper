@@ -1,0 +1,54 @@
+# === Core Python & Async ===
+asyncio
+aiohttp
+httpx
+tenacity
+tqdm
+
+# === Agentic AI / LLMs ===
+langgraph>=0.2.5
+langchain>=0.3.4
+langchain-core>=0.3.2
+langchain-openai>=0.2.1
+openai>=1.51.0
+mcp-use>=0.3.1
+pydantic>=2.9.0
+python-dotenv>=1.0.1
+
+# === Web Scraping ===
+beautifulsoup4>=4.12.3
+lxml>=5.2.2
+playwright>=1.48.0
+fake-useragent>=1.5.1
+
+# === Data & Storage ===
+SQLAlchemy>=2.0.35
+geoalchemy2>=0.15.2
+psycopg2-binary>=2.9.9
+alembic>=1.14.0  # DB migrations
+pandas>=2.2.3
+
+# === Geocoding & Spatial ===
+geopy>=2.4.1
+shapely>=2.1.1
+
+# === Logging & Monitoring ===
+loguru>=0.7.3
+rich>=13.9.1
+
+# === Utils & Validation ===
+validators>=0.22.0
+python-dateutil>=2.9.0
+regex>=2024.9.11
+
+# === Optional Enhancements ===
+requests>=2.32.3
+nest_asyncio>=1.6.0
+coloredlogs>=15.0.1
+
+# === Testing ===
+pytest>=8.3.3
+pytest-asyncio>=0.23.8
+
+# === Bright Data MCP CLI (Node.js required separately) ===
+# npm install -g @brightdata/mcp
